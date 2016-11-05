@@ -1,0 +1,147 @@
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\bin\Debug\多功能程序.exe.config
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\bin\Debug\多功能程序.exe.manifest
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\bin\Debug\多功能程序.application
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\bin\Debug\多功能程序.exe
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\bin\Debug\多功能程序.pdb
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\bin\Debug\多功能程序.xml
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\ResolveAssemblyReference.cache
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.About1.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.Form100.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.Form101.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.Form1100.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.Form1300.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.Form1400.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.Form201.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.Form202.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.Form203.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.Form204.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.Form205.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.Form301.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.Form302.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.Form302_1.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.Form401.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.Form402.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.Form406.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.Format.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.Formopen.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.Resources.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\duogongneng.SplashScreen1.resources
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\GenerateResource-ResGen.read.4.tlog
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\多功能程序.TrustInfo.xml
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\多功能程序.exe.manifest
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\多功能程序.application
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\多功能程序.exe
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\多功能程序.xml
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\多功能程序.pdb
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\GenerateResource.read.1.tlog
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\obj\Debug\GenerateResource.write.1.tlog
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\bin\Debug\多功能程序.exe.CodeAnalysisLog.xml
+F:\冯梦奇的世界\VB程序\duogongneng\duogongneng\bin\Debug\多功能程序.exe.lastcodeanalysissucceeded
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\bin\Debug\多功能程序.exe.config
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\bin\Debug\多功能程序.exe.manifest
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\bin\Debug\多功能程序.application
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\bin\Debug\多功能程序.exe
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\bin\Debug\多功能程序.pdb
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\bin\Debug\多功能程序.xml
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\ResolveAssemblyReference.cache
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.About1.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form100.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form101.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form1100.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form1300.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form1400.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form201.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form202.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form203.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form204.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form205.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form301.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form302.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form302_1.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form401.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form402.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form406.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Formopen.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Resources.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.SplashScreen1.resources
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\GenerateResource-ResGen.read.4.tlog
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\多功能程序.TrustInfo.xml
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\多功能程序.exe.manifest
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\多功能程序.application
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\多功能程序.exe
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\多功能程序.xml
+F:\冯梦奇的业余\编程\vb.net\Duogongneng\duogongneng\duogongneng\obj\Debug\多功能程序.pdb
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\bin\Debug\多功能程序.exe.config
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\多功能程序.exe
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\多功能程序.xml
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\多功能程序.pdb
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\bin\Debug\多功能程序.exe.manifest
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\bin\Debug\多功能程序.application
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\bin\Debug\多功能程序.exe
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\bin\Debug\多功能程序.pdb
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\bin\Debug\多功能程序.xml
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\ResolveAssemblyReference.cache
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.About1.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form100.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form101.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form1100.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form1300.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form1400.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form201.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form202.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form203.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form204.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form205.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form301.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form302.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form302_1.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form401.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form402.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Form406.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Formopen.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.Resources.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\duogongneng.SplashScreen1.resources
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\GenerateResource-ResGen.read.4.tlog
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\多功能程序.TrustInfo.xml
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\多功能程序.exe.manifest
+F:\冯梦奇的业余\Duogongneng\duogongneng\duogongneng\obj\Debug\多功能程序.application
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\bin\Debug\多功能程序.exe.config
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\多功能程序.exe
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\多功能程序.xml
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\多功能程序.pdb
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\Duogongneng.vbprojResolveAssemblyReference.cache
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.About1.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.Form100.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.Form101.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.Form1100.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.Form1300.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.Form1400.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.Form201.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.Form202.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.Form203.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.Form204.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.Form205.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.Form301.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.Form302.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.Form302_1.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.Form401.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.Form402.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.Form406.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.Formopen.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.Resources.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\duogongneng.SplashScreen1.resources
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\Duogongneng.vbproj.GenerateResource.Cache
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\bin\Debug\多功能程序.exe.manifest
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\bin\Debug\多功能程序.application
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\bin\Debug\多功能程序.exe
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\bin\Debug\多功能程序.pdb
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\bin\Debug\多功能程序.xml
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\多功能程序.TrustInfo.xml
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\多功能程序.exe.manifest
+G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\多功能程序.application

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="duogongneng">
+</Property><Property Name="解决方案文件" Value="F:\冯梦奇的世界\VB程序\duogongneng\duogongneng.sln">
+</Property><Property Name="用户选项文件" Value="F:\冯梦奇的世界\VB程序\duogongneng\duogongneng.suo">
+</Property><Property Name="Date" Value="2016年1月11日">
+</Property><Property Name="Time" Value="16:21">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="duogongneng.sln" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng.sln">
+</Event><Event ErrorLevel="0" Project="" Source="duogongneng.suo" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng.suo">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\duogongneng.vbproj" Description="项目文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\duogongneng.vbproj">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\duogongneng.vbproj.user" Description="项目用户文件成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\duogongneng.vbproj.user">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\About1.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\About1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\About1.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\About1.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form100.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form100.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form100.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form100.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form101.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form101.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form101.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form101.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form1100.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form1100.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form1100.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form1100.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form1300.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form1300.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form1300.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form1300.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form1400.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form1400.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form1400.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form1400.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form201.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form201.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form201.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form201.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form202.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form202.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form202.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form202.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form203.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form203.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form203.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form203.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form204.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form204.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form204.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form204.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form205.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form205.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form205.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form205.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form301.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form301.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form301.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form301.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form302.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form302.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form302.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form302.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form302_1.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form302_1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form302_1.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form302_1.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form401.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form401.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form401.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form401.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form402.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form402.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form402.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form402.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form406.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form406.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form406.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form406.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Formopen.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Formopen.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Formopen.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Formopen.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\My Project\AssemblyInfo.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\My Project\Application.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\My Project\Resources.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\My Project\Settings.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Settings.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Settings.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\SplashScreen1.Designer.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\SplashScreen1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\SplashScreen1.vb" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\SplashScreen1.vb">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\My Project\Application.myapp" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\My Project\Settings.settings" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\tubiao.ico" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\tubiao.ico">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\About1.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\About1.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form100.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form100.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form101.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form101.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form1100.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form1100.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form1300.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form1300.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form1400.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form1400.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form201.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form201.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form202.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form202.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form203.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form203.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form204.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form204.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form205.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form205.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form301.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form301.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form302.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form302.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form302_1.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form302_1.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form401.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form401.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form402.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form402.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Form406.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Form406.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\Formopen.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\Formopen.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\My Project\Resources.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\SplashScreen1.resx" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\SplashScreen1.resx">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\My Project\app.manifest" Description="文件已成功备份为 F:\冯梦奇的世界\VB程序\duogongneng1\Backup\duogongneng\My Project\app.manifest">
+</Event><Event ErrorLevel="1" Project="duogongneng" Source="duogongneng\duogongneng.vbproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\duogongneng.vbproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="duogongneng" Source="duogongneng\duogongneng.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="duogongneng.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="duogongneng.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="duogongneng" Source="duogongneng\duogongneng.vbproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

@@ -216,6 +216,6 @@ Public Class Formopen
     Private Sub Formopen_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Me.Opacity = 0.01 '窗体启动时做某些操作
         ti2.Enabled = True
-        Form201.Show()
+        '    Form201.Show()
     End Sub
 End Class

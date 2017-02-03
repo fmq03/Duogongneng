@@ -26,7 +26,7 @@ Public Class Form101
                 aa = aa + 1
                 If aa = 3 Then
                     l3.Text = "倒霉了....."
-                    Shell("shutdown -s -t 0")
+                    '  Shell("shutdown -s -t 0")
                     Exit Sub
                 End If
                 l3.Text = "密码错误！ 这是第" & aa & "次错了，再错" & 3 - aa & "次关机！"
@@ -67,7 +67,7 @@ Public Class Form101
     Private Sub aa2()
         time1.Enabled = False
         l4.Text = "保重......"
-        Shell("Shutdown.exe -s -t 3")
+        ' Shell("Shutdown.exe -s -t 3")
     End Sub
 
     Private Sub Form101_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles MyBase.KeyDown

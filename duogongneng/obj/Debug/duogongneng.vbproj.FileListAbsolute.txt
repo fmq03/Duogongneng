@@ -145,3 +145,7 @@ G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\bin\Debug\多�
 G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\多功能程序.TrustInfo.xml
 G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\多功能程序.exe.manifest
 G:\冯梦奇的业余\Duogongneng\复件 duogongneng\duogongneng\obj\Debug\多功能程序.application
+G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng\bin\Debug\多功能程序.exe.config
+G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng\obj\Debug\多功能程序.exe
+G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng\obj\Debug\多功能程序.xml
+G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng\obj\Debug\多功能程序.pdb

@@ -58,14 +58,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="多功能程序.exe" size="511488">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="多功能程序.exe" size="510976">
       <assemblyIdentity name="多功能程序" version="2.0.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>WJYxB1AqS6uueH/yQ3D8jnrFUTM=</dsig:DigestValue>
+        <dsig:DigestValue>QgSWqloD4/kG1Jzdu69s/v/MM5U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

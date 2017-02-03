@@ -30,11 +30,11 @@ Partial Class Formopen
         Me.Button7 = New System.Windows.Forms.Button()
         Me.noti1 = New System.Windows.Forms.NotifyIcon(Me.components)
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.隐藏程序ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.显示程序ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.隐藏程序ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.关于ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.退出程序ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LockToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ShowsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HideToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.link1 = New System.Windows.Forms.LinkLabel()
         Me.ti2 = New System.Windows.Forms.Timer(Me.components)
         Me.ti3 = New System.Windows.Forms.Timer(Me.components)
@@ -115,41 +115,41 @@ Partial Class Formopen
         'ContextMenuStrip1
         '
         Me.ContextMenuStrip1.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.隐藏程序ToolStripMenuItem, Me.显示程序ToolStripMenuItem, Me.隐藏程序ToolStripMenuItem1, Me.关于ToolStripMenuItem, Me.退出程序ToolStripMenuItem})
+        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LockToolStripMenuItem, Me.ShowsToolStripMenuItem, Me.HideToolStripMenuItem1, Me.AboutToolStripMenuItem, Me.ExitToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
         Me.ContextMenuStrip1.ShowImageMargin = False
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(94, 114)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(100, 114)
         '
-        '隐藏程序ToolStripMenuItem
+        'LockToolStripMenuItem
         '
-        Me.隐藏程序ToolStripMenuItem.Name = "隐藏程序ToolStripMenuItem"
-        Me.隐藏程序ToolStripMenuItem.Size = New System.Drawing.Size(93, 22)
-        Me.隐藏程序ToolStripMenuItem.Text = "锁屏"
+        Me.LockToolStripMenuItem.Name = "LockToolStripMenuItem"
+        Me.LockToolStripMenuItem.Size = New System.Drawing.Size(99, 22)
+        Me.LockToolStripMenuItem.Text = "锁屏"
         '
-        '显示程序ToolStripMenuItem
+        'ShowsToolStripMenuItem
         '
-        Me.显示程序ToolStripMenuItem.Name = "显示程序ToolStripMenuItem"
-        Me.显示程序ToolStripMenuItem.Size = New System.Drawing.Size(93, 22)
-        Me.显示程序ToolStripMenuItem.Text = "显示程序"
-        Me.显示程序ToolStripMenuItem.Visible = False
+        Me.ShowsToolStripMenuItem.Name = "ShowsToolStripMenuItem"
+        Me.ShowsToolStripMenuItem.Size = New System.Drawing.Size(99, 22)
+        Me.ShowsToolStripMenuItem.Text = "显示程序"
+        Me.ShowsToolStripMenuItem.Visible = False
         '
-        '隐藏程序ToolStripMenuItem1
+        'HideToolStripMenuItem1
         '
-        Me.隐藏程序ToolStripMenuItem1.Name = "隐藏程序ToolStripMenuItem1"
-        Me.隐藏程序ToolStripMenuItem1.Size = New System.Drawing.Size(93, 22)
-        Me.隐藏程序ToolStripMenuItem1.Text = "隐藏程序"
+        Me.HideToolStripMenuItem1.Name = "HideToolStripMenuItem1"
+        Me.HideToolStripMenuItem1.Size = New System.Drawing.Size(99, 22)
+        Me.HideToolStripMenuItem1.Text = "隐藏程序"
         '
-        '关于ToolStripMenuItem
+        'AboutToolStripMenuItem
         '
-        Me.关于ToolStripMenuItem.Name = "关于ToolStripMenuItem"
-        Me.关于ToolStripMenuItem.Size = New System.Drawing.Size(93, 22)
-        Me.关于ToolStripMenuItem.Text = "关于"
+        Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(99, 22)
+        Me.AboutToolStripMenuItem.Text = "关于"
         '
-        '退出程序ToolStripMenuItem
+        'ExitToolStripMenuItem
         '
-        Me.退出程序ToolStripMenuItem.Name = "退出程序ToolStripMenuItem"
-        Me.退出程序ToolStripMenuItem.Size = New System.Drawing.Size(93, 22)
-        Me.退出程序ToolStripMenuItem.Text = "退出程序"
+        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(99, 22)
+        Me.ExitToolStripMenuItem.Text = "退出程序"
         '
         'link1
         '
@@ -173,7 +173,7 @@ Partial Class Formopen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(115, 223)
+        Me.ClientSize = New System.Drawing.Size(128, 223)
         Me.ControlBox = False
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
@@ -202,11 +202,11 @@ Partial Class Formopen
     Friend WithEvents Button7 As System.Windows.Forms.Button
     Friend WithEvents noti1 As System.Windows.Forms.NotifyIcon
     Friend WithEvents ContextMenuStrip1 As System.Windows.Forms.ContextMenuStrip
-    Friend WithEvents 退出程序ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents 隐藏程序ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents 显示程序ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents 关于ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents 隐藏程序ToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ExitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents LockToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ShowsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AboutToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents HideToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents link1 As System.Windows.Forms.LinkLabel
     Friend WithEvents ti2 As System.Windows.Forms.Timer
     Friend WithEvents ti3 As System.Windows.Forms.Timer

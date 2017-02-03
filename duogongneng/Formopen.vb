@@ -36,11 +36,6 @@ Public Class Formopen
     Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
         If kk = False Then Exit Sub '打开锁屏设置框（如果已锁屏则不能用）
         Form100.Show()
-
-    End Sub
-
-    Private Sub SjowToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        Form101.Show() '打开锁屏框（如果已锁屏则不能用）
     End Sub
 
     Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button7.Click
@@ -56,28 +51,10 @@ Public Class Formopen
         End If
     End Sub
 
-
-    Private Sub 退出程序ToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles 退出程序ToolStripMenuItem.Click
-        Call clos() '退出程序
-    End Sub
-
     Private Sub link1_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles link1.LinkClicked
         System.Diagnostics.Process.Start("www.fmq03.icoc.cc") '前往我的个人主页
     End Sub
-
-    Private Sub 关于ToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles 关于ToolStripMenuItem.Click
-        About1.Show() '打开关于框
-    End Sub
-
-    Private Sub 隐藏程序ToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles 隐藏程序ToolStripMenuItem1.Click
-        Call pand() '隐藏程序
-        Call aass(True)
-    End Sub
-
-    Private Sub 显示程序ToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles 显示程序ToolStripMenuItem.Click
-        Call huifu() '显示程序
-        Call aass(False)
-    End Sub
+    '暴力关闭三部曲
     ''' <summary>
     ''' 判断并关闭以到达隐藏效果
     ''' </summary>
@@ -159,12 +136,12 @@ Public Class Formopen
     Private Sub aass(ByVal a As Boolean)
         If a = True Then
             Me.Visible = False
-            隐藏程序ToolStripMenuItem1.Visible = False
-            显示程序ToolStripMenuItem.Visible = True
+            HideToolStripMenuItem1.Visible = False
+            ShowsToolStripMenuItem.Visible = True
         Else
             Me.Visible = True
-            隐藏程序ToolStripMenuItem1.Visible = True
-            显示程序ToolStripMenuItem.Visible = False
+            HideToolStripMenuItem1.Visible = True
+            ShowsToolStripMenuItem.Visible = False
         End If
 
     End Sub
@@ -181,11 +158,6 @@ Public Class Formopen
             Case 3
                 noti1.Text = noti1.Text & Chr(13) & text
         End Select
-    End Sub
-
-    Private Sub 隐藏程序ToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles 隐藏程序ToolStripMenuItem.Click
-        If kk = False Then Exit Sub
-        Form100.Show() '打开锁屏设置（此处id变成了隐藏程序ToolStripMenuItem请无视）
     End Sub
 
     Private Sub noti1_MouseDoubleClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles noti1.MouseDoubleClick
@@ -217,5 +189,28 @@ Public Class Formopen
         Me.Opacity = 0.01 '窗体启动时做某些操作
         ti2.Enabled = True
         '    Form201.Show()
+    End Sub
+
+    Private Sub LockToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LockToolStripMenuItem.Click
+        If kk = False Then Exit Sub
+        Form100.Show() '打开锁屏设置
+    End Sub
+
+    Private Sub ShowsToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles ShowsToolStripMenuItem.Click
+        Call huifu() '显示程序
+        Call aass(False)
+    End Sub
+
+    Private Sub HideToolStripMenuItem1_Click_1(sender As Object, e As EventArgs) Handles HideToolStripMenuItem1.Click
+        Call pand() '隐藏程序
+        Call aass(True)
+    End Sub
+
+    Private Sub AboutToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles AboutToolStripMenuItem.Click
+        About1.Show() '打开关于框
+    End Sub
+
+    Private Sub ExitToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
+        Call clos() '退出程序
     End Sub
 End Class

@@ -4,7 +4,7 @@
  <Namespaces>
   <Namespace Name="duogongneng">
    <Messages>
-    <Message Id="duogongneng" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+    <Message Id="duogongneng" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="85" Level="Error">更正命名空间名称“duogongneng”中“duogongneng”的大小写，将其改为“Duogongneng”。</Issue>
     </Message>
    </Messages>
@@ -15,13 +15,13 @@
    <Modules>
     <Module Name="多功能程序.exe">
      <Messages>
-      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="NonBreaking">
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="NonBreaking">
        <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">用强名称密钥对 '多功能程序.exe' 进行签名。</Issue>
       </Message>
-      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="NonBreaking">
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="NonBreaking">
        <Issue Certainty="95" Level="Error">使用 CLSCompliant(true)来标记 '多功能程序.exe'，因为它公开外部可见的类型。</Issue>
       </Message>
-      <Message TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="NonBreaking">
+      <Message TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="NonBreaking">
        <Issue Certainty="95" Level="Warning">由于程序集 '多功能程序.exe' 包含基于 ResX 的资源文件，因此请使用 NeutralResourcesLanguage 特性来标记它，并指定该程序集内的资源所采用的语言。这会改进首次检索资源时的查找性能。</Issue>
       </Message>
      </Messages>
@@ -32,33 +32,33 @@
          <Members>
           <Member Name="#About1_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="NonBreaking">
+            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="About1.vb" Line="11">由于 'String.Format(String, Object)' 的行为可能会因当前用户的区域设置不同而不同，请将 'About1.About1_Load(Object, EventArgs)' 中的此调用替换为对 'String.Format(IFormatProvider, String, ParamArray Object())' 的调用。如果要向用户显示 'String.Format(IFormatProvider, String, ParamArray Object())' 的结果，请指定 'CultureInfo.CurrentCulture()' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture()'。</Issue>
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="About1.vb" Line="16">由于 'String.Format(String, Object)' 的行为可能会因当前用户的区域设置不同而不同，请将 'About1.About1_Load(Object, EventArgs)' 中的此调用替换为对 'String.Format(IFormatProvider, String, ParamArray Object())' 的调用。如果要向用户显示 'String.Format(IFormatProvider, String, ParamArray Object())' 的结果，请指定 'CultureInfo.CurrentCulture()' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture()'。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="About1.vb" Line="11">方法 'About1.About1_Load(Object, EventArgs)' 将一个文本字符串作为对 'Form.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "关于 "。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="About1.vb" Line="16">方法 'About1.About1_Load(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "版本 "。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="About1.Designer.vb" Line="151">方法 'About1.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "确定(&amp;O)"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="About1.Designer.vb" Line="167">方法 'About1.InitializeComponent()' 将一个文本字符串作为对 'Form.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "About1"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="About1.Designer.vb" Line="90">方法 'About1.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "产品名称"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="About1.Designer.vb" Line="126">方法 'About1.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "公司名称"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="About1.Designer.vb" Line="102">方法 'About1.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "版本"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="About1.Designer.vb" Line="114">方法 'About1.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "版权"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.TextBox.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.TextBox.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="About1.Designer.vb" Line="141">方法 'About1.InitializeComponent()' 将一个文本字符串作为对 'TextBox.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "说明:" &amp; ChrW(13) &amp; ChrW(10) &amp; ChrW(13) &amp; ChrW(10) &amp; "(在运行时，将用应用程序的程序集信息替换这些标签的文本..."。</Issue>
             </Message>
            </Messages>
@@ -69,136 +69,136 @@
          <Members>
           <Member Name="#fisint(System.Int32,System.Boolean,System.Windows.Forms.TextBox,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="textbox" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="textbox" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="MemberParameterShouldBeCompoundWord" Certainty="80" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="79">在成员 'CL.fisint(Integer, Boolean, TextBox, Integer, Integer)' 中，参数名称 'textbox' 中的分立词条“textbox”应表示为一个组合词“textBox”。</Issue>
             </Message>
-            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="79">用提供所有默认形参的重载来替换方法 'CL.fisint(Integer, Boolean, TextBox, Integer, Integer)'。</Issue>
             </Message>
-            <Message Id="fisint" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="fisint" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="79">更正成员名称 'CL.fisint(Integer, Boolean, TextBox, Integer, Integer)' 中“fisint”的大小写，将其改为“Fisint”。</Issue>
             </Message>
-            <Message Id="a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="79">在方法 'CL.fisint(Integer, Boolean, TextBox, Integer, Integer)' 中，考虑将参数名称 'a' 改为一个更能体现其意义的名称。</Issue>
             </Message>
-            <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="79">在方法 'CL.fisint(Integer, Boolean, TextBox, Integer, Integer)' 中，考虑将参数名称 'b' 改为一个更能体现其意义的名称。</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="79">从未使用 'CL.fisint(Integer, Boolean, TextBox, Integer, Integer)' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
             </Message>
-            <Message Id="2" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="2" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="81">在外部可见方法 'CL.fisint(Integer, Boolean, TextBox, Integer, Integer)' 中，请在使用参数“textbox”之前先对其进行验证。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#fissingle(System.Int32,System.Boolean,System.Windows.Forms.TextBox,System.Int32,System.Int32,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="textbox" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="textbox" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="MemberParameterShouldBeCompoundWord" Certainty="80" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="117">在成员 'CL.fissingle(Integer, Boolean, TextBox, Integer, Integer, Integer, Integer)' 中，参数名称 'textbox' 中的分立词条“textbox”应表示为一个组合词“textBox”。</Issue>
             </Message>
-            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="117">用提供所有默认形参的重载来替换方法 'CL.fissingle(Integer, Boolean, TextBox, Integer, Integer, Integer, Integer)'。</Issue>
             </Message>
-            <Message Id="fissingle" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="fissingle" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="117">更正成员名称 'CL.fissingle(Integer, Boolean, TextBox, Integer, Integer, Integer, Integer)' 中“fissingle”的大小写，将其改为“Fissingle”。</Issue>
             </Message>
-            <Message Id="a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="117">在方法 'CL.fissingle(Integer, Boolean, TextBox, Integer, Integer, Integer, Integer)' 中，考虑将参数名称 'a' 改为一个更能体现其意义的名称。</Issue>
             </Message>
-            <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="117">在方法 'CL.fissingle(Integer, Boolean, TextBox, Integer, Integer, Integer, Integer)' 中，考虑将参数名称 'b' 改为一个更能体现其意义的名称。</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="117">从未使用 'CL.fissingle(Integer, Boolean, TextBox, Integer, Integer, Integer, Integer)' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
             </Message>
-            <Message Id="2" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="2" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="119">在外部可见方法 'CL.fissingle(Integer, Boolean, TextBox, Integer, Integer, Integer, Integer)' 中，请在使用参数“textbox”之前先对其进行验证。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#fsngint(System.Int32,System.Windows.Forms.TextBox,System.Int32,System.Int32,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="textbox" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="textbox" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="MemberParameterShouldBeCompoundWord" Certainty="80" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="154">在成员 'CL.fsngint(Integer, TextBox, Integer, Integer, Integer, Integer)' 中，参数名称 'textbox' 中的分立词条“textbox”应表示为一个组合词“textBox”。</Issue>
             </Message>
-            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="154">用提供所有默认形参的重载来替换方法 'CL.fsngint(Integer, TextBox, Integer, Integer, Integer, Integer)'。</Issue>
             </Message>
-            <Message Id="fsngint" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="fsngint" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="154">更正成员名称 'CL.fsngint(Integer, TextBox, Integer, Integer, Integer, Integer)' 中“fsngint”的大小写，将其改为“Fsngint”。</Issue>
             </Message>
-            <Message Id="a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="154">在方法 'CL.fsngint(Integer, TextBox, Integer, Integer, Integer, Integer)' 中，考虑将参数名称 'a' 改为一个更能体现其意义的名称。</Issue>
             </Message>
-            <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="154">在方法 'CL.fsngint(Integer, TextBox, Integer, Integer, Integer, Integer)' 中，考虑将参数名称 'b' 改为一个更能体现其意义的名称。</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="154">从未使用 'CL.fsngint(Integer, TextBox, Integer, Integer, Integer, Integer)' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
             </Message>
-            <Message Id="1" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="1" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="155">在外部可见方法 'CL.fsngint(Integer, TextBox, Integer, Integer, Integer, Integer)' 中，请在使用参数“textbox”之前先对其进行验证。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#isint(System.String,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="12">用提供所有默认形参的重载来替换方法 'CL.isint(String, Integer, Integer)'。</Issue>
             </Message>
-            <Message Id="isint" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="isint" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="12">更正成员名称 'CL.isint(String, Integer, Integer)' 中“isint”的大小写，将其改为“Isint”。</Issue>
             </Message>
-            <Message Id="a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="12">在方法 'CL.isint(String, Integer, Integer)' 中，考虑将参数名称 'a' 改为一个更能体现其意义的名称。</Issue>
             </Message>
-            <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="12">在方法 'CL.isint(String, Integer, Integer)' 中，考虑将参数名称 'b' 改为一个更能体现其意义的名称。</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="12">从未使用 'CL.isint(String, Integer, Integer)' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#isintt(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="isintt" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="isintt" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="27">更正成员名称 'CL.isintt(String)' 中“isintt”的大小写，将其改为“Isintt”。</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="27">从未使用 'CL.isintt(String)' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#issingle(System.String,System.Int32,System.Int32,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="46">用提供所有默认形参的重载来替换方法 'CL.issingle(String, Integer, Integer, Integer, Integer)'。</Issue>
             </Message>
-            <Message Id="issingle" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="issingle" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="46">更正成员名称 'CL.issingle(String, Integer, Integer, Integer, Integer)' 中“issingle”的大小写，将其改为“Issingle”。</Issue>
             </Message>
-            <Message Id="a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="46">在方法 'CL.issingle(String, Integer, Integer, Integer, Integer)' 中，考虑将参数名称 'a' 改为一个更能体现其意义的名称。</Issue>
             </Message>
-            <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="46">在方法 'CL.issingle(String, Integer, Integer, Integer, Integer)' 中，考虑将参数名称 'b' 改为一个更能体现其意义的名称。</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="46">从未使用 'CL.issingle(String, Integer, Integer, Integer, Integer)' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
             </Message>
-            <Message Id="xb" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="xb" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="46">从未用过 'CL.issingle(String, Integer, Integer, Integer, Integer)' 的参数 'xb'。请移除该参数或在方法体中使用它。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#issinglee(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="issinglee" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="issinglee" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="61">更正成员名称 'CL.issinglee(String)' 中“issinglee”的大小写，将其改为“Issinglee”。</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="cl.vb" Line="61">从未使用 'CL.issinglee(String)' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
             </Message>
            </Messages>
@@ -209,7 +209,7 @@
          <Members>
           <Member Name="#Button1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.TextBox.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.TextBox.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form100.vb" Line="91">方法 'Form100.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'TextBox.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "0"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form100.vb" Line="92">方法 'Form100.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'TextBox.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "1"。</Issue>
             </Message>
@@ -217,7 +217,7 @@
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form100.Designer.vb" Line="216">方法 'Form100.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "取消"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form100.Designer.vb" Line="117">方法 'Form100.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "在计时后隐藏程序(不再使用)"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form100.Designer.vb" Line="92">方法 'Form100.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "定时锁屏（暂不支持）"。</Issue>
@@ -227,10 +227,10 @@
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form100.Designer.vb" Line="71">方法 'Form100.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "自定义标语"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form100.Designer.vb" Line="81">方法 'Form100.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "错误三次后关机"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form100.Designer.vb" Line="255">方法 'Form100.InitializeComponent()' 将一个文本字符串作为对 'Form.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "锁屏设置"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form100.Designer.vb" Line="181">方法 'Form100.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "再次输入"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form100.Designer.vb" Line="143">方法 'Form100.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "分"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form100.Designer.vb" Line="127">方法 'Form100.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "秒后锁"。</Issue>
@@ -241,35 +241,35 @@
           </Member>
           <Member Name="#na" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">由于字段 'Form100.na' 在其声明类型的外部可见，因此，请将它的可访问性改为私有，并添加一个与该字段当前的可访问性相同的属性以提供对该属性的访问。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#pass" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">由于字段 'Form100.pass' 在其声明类型的外部可见，因此，请将它的可访问性改为私有，并添加一个与该字段当前的可访问性相同的属性以提供对该属性的访问。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#te1" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">由于字段 'Form100.te1' 在其声明类型的外部可见，因此，请将它的可访问性改为私有，并添加一个与该字段当前的可访问性相同的属性以提供对该属性的访问。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#te2" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">由于字段 'Form100.te2' 在其声明类型的外部可见，因此，请将它的可访问性改为私有，并添加一个与该字段当前的可访问性相同的属性以提供对该属性的访问。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#yinc" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">由于字段 'Form100.yinc' 在其声明类型的外部可见，因此，请将它的可访问性改为私有，并添加一个与该字段当前的可访问性相同的属性以提供对该属性的访问。</Issue>
             </Message>
            </Messages>
@@ -280,14 +280,14 @@
          <Members>
           <Member Name="#aa2()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form101.vb" Line="69">方法 'Form101.aa2()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "保重......"。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Button1_Click_1(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form101.vb" Line="28">方法 'Form101.Button1_Click_1(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "倒霉了....."。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form101.vb" Line="32">方法 'Form101.Button1_Click_1(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "密码错误！ 这是第, 次错了，再错, 次关机！"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form101.vb" Line="20">方法 'Form101.Button1_Click_1(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "密码错误！"。</Issue>
@@ -296,24 +296,24 @@
           </Member>
           <Member Name="#clos()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form101.vb" Line="37">方法 'Form101.clos()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "即将退出！"。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="DoNotUseTimersThatPreventPowerStateChanges" Category="Microsoft.Mobility" CheckId="CA1601" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message TypeName="DoNotUseTimersThatPreventPowerStateChanges" Category="Microsoft.Mobility" CheckId="CA1601" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form101.Designer.vb" Line="113">修改方法 'Form101.InitializeComponent()' 中对 'Timer.Interval.Set(Integer)' 的调用以将计时器间隔设置为大于或等于 1 秒的值。</Issue>
              <Issue Certainty="90" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form101.Designer.vb" Line="128">修改方法 'Form101.InitializeComponent()' 中对 'Timer.Interval.Set(Integer)' 的调用以将计时器间隔设置为大于或等于 1 秒的值。</Issue>
              <Issue Certainty="90" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form101.Designer.vb" Line="132">修改方法 'Form101.InitializeComponent()' 中对 'Timer.Interval.Set(Integer)' 的调用以将计时器间隔设置为大于或等于 1 秒的值。</Issue>
              <Issue Certainty="90" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form101.Designer.vb" Line="146">修改方法 'Form101.InitializeComponent()' 中对 'Timer.Interval.Set(Integer)' 的调用以将计时器间隔设置为大于或等于 1 秒的值。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form101.Designer.vb" Line="58">方法 'Form101.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "关机"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form101.Designer.vb" Line="67">方法 'Form101.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "确定"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form101.Designer.vb" Line="97">方法 'Form101.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "玩命开锁吧！"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form101.Designer.vb" Line="109">方法 'Form101.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "电脑已被锁！"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form101.Designer.vb" Line="86">方法 'Form101.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "请输入密码！"。</Issue>
@@ -322,7 +322,7 @@
           </Member>
           <Member Name="#time1_Tick(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form101.vb" Line="58">方法 'Form101.time1_Tick(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "在, 秒内，再按一次关机"。</Issue>
             </Message>
            </Messages>
@@ -333,14 +333,14 @@
          <Members>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form1100.Designer.vb" Line="72">方法 'Form1100.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "一般计算器"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form1100.Designer.vb" Line="54">方法 'Form1100.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "公倍数计算"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form1100.Designer.vb" Line="63">方法 'Form1100.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "公因数计算"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form1100.Designer.vb" Line="45">方法 'Form1100.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "面积计算"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form1100.Designer.vb" Line="36">方法 'Form1100.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "鸡兔同笼计算"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form1100.Designer.vb" Line="89">方法 'Form1100.InitializeComponent()' 将一个文本字符串作为对 'Form.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "数学计算"。</Issue>
             </Message>
            </Messages>
@@ -351,11 +351,11 @@
          <Members>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form1300.Designer.vb" Line="33">方法 'Form1300.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "打字测试器"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form1300.Designer.vb" Line="42">方法 'Form1300.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "计时器"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form1300.Designer.vb" Line="56">方法 'Form1300.InitializeComponent()' 将一个文本字符串作为对 'Form.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "辅助程序"。</Issue>
             </Message>
            </Messages>
@@ -366,7 +366,7 @@
          <Members>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form1400.Designer.vb" Line="76">方法 'Form1400.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "兄弟哥俩好"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form1400.Designer.vb" Line="67">方法 'Form1400.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "娱乐程序3"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form1400.Designer.vb" Line="57">方法 'Form1400.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "娱乐程序4"。</Issue>
@@ -374,7 +374,7 @@
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form1400.Designer.vb" Line="37">方法 'Form1400.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "看你咋登录"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form1400.Designer.vb" Line="85">方法 'Form1400.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "石头剪子布"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form1400.Designer.vb" Line="103">方法 'Form1400.InitializeComponent()' 将一个文本字符串作为对 'Form.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "辅助程序"。</Issue>
             </Message>
            </Messages>
@@ -385,14 +385,14 @@
          <Members>
           <Member Name="#Button1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="NonBreaking">
+            <Message TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="NonBreaking">
              <Issue Certainty="90" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form201.vb" Line="37">'Form201.Button1_Click(Object, EventArgs)' 的圈复杂度为 27。重写或重构该方法，以便将复杂度降低到 25。</Issue>
             </Message>
-            <Message TypeName="DoNotCastUnnecessarily" Category="Microsoft.Performance" CheckId="CA1800" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCastUnnecessarily" Category="Microsoft.Performance" CheckId="CA1800" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="NonBreaking">
              <Issue Name="Parameter" Certainty="95" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form201.vb" Line="90">在方法 'Form201.Button1_Click(Object, EventArgs)' 中多次将参数 'sender' 强制转换为类型 'Control'。请缓存“as”运算符或直接强制转换的结果以消除冗余的 castclass 指令。</Issue>
              <Issue Name="Parameter" Certainty="95" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form201.vb" Line="140">在方法 'Form201.Button1_Click(Object, EventArgs)' 中多次将参数 'sender' 强制转换为类型 'Control'。请缓存“as”运算符或直接强制转换的结果以消除冗余的 castclass 指令。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.TextBox.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.TextBox.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form201.vb" Line="92">方法 'Form201.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'TextBox.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "+"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form201.vb" Line="95">方法 'Form201.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'TextBox.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "-"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form201.vb" Line="68">方法 'Form201.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'TextBox.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "."。</Issue>
@@ -408,21 +408,21 @@
           </Member>
           <Member Name="#Button13_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="need0" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="NonBreaking">
+            <Message Id="need0" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form201.vb" Line="163">'Form201.Button13_Click(Object, EventArgs)' 声明类型为 'Object' 的变量 'need0'，但从未使用过该变量或只对它进行过赋值。请使用此变量或将它移除。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Button14_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="need0" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="NonBreaking">
+            <Message Id="need0" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form201.vb" Line="180">'Form201.Button14_Click(Object, EventArgs)' 声明类型为 'Object' 的变量 'need0'，但从未使用过该变量或只对它进行过赋值。请使用此变量或将它移除。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form201.Designer.vb" Line="212">方法 'Form201.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "+"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form201.Designer.vb" Line="221">方法 'Form201.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "-"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form201.Designer.vb" Line="162">方法 'Form201.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "."。</Issue>
@@ -443,14 +443,14 @@
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form201.Designer.vb" Line="230">方法 'Form201.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "×"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form201.Designer.vb" Line="239">方法 'Form201.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "÷"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form201.Designer.vb" Line="270">方法 'Form201.InitializeComponent()' 将一个文本字符串作为对 'Form.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "Form201"。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#lastfh" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="NonBreaking">
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="NonBreaking">
              <Issue Certainty="75" Level="Warning">似乎从未使用过字段 'Form201.lastfh' 或只对它进行过赋值。请使用此字段或将它移除。</Issue>
             </Message>
            </Messages>
@@ -459,108 +459,108 @@
         </Type>
         <Type Name="Form201+mat" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="mat" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+          <Message Id="mat" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="85" Level="Error">更正类型名称 'Form201.mat' 中“mat”的大小写，将其改为“Mat”。</Issue>
           </Message>
-          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
            <Issue Certainty="90" Level="Error">不要嵌套类型 'Form201.mat'。或者，更改其可访问性，使它在外部不可见。</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#dpoint" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="dpoint" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="dpoint" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'Form201.mat.dpoint' 中“dpoint”的大小写，将其改为“Dpoint”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#dzero" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="dzero" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="dzero" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'Form201.mat.dzero' 中“dzero”的大小写，将其改为“Dzero”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#eight" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="eight" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="eight" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'Form201.mat.eight' 中“eight”的大小写，将其改为“Eight”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#five" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="five" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="five" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'Form201.mat.five' 中“five”的大小写，将其改为“Five”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#four" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="four" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="four" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'Form201.mat.four' 中“four”的大小写，将其改为“Four”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#nine" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="nine" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="nine" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'Form201.mat.nine' 中“nine”的大小写，将其改为“Nine”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#null" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="null" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="null" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'Form201.mat.null' 中“null”的大小写，将其改为“Null”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#one" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="one" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="one" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'Form201.mat.one' 中“one”的大小写，将其改为“One”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#point" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="point" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="point" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'Form201.mat.point' 中“point”的大小写，将其改为“Point”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#seven" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="seven" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="seven" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'Form201.mat.seven' 中“seven”的大小写，将其改为“Seven”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#six" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="six" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="six" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'Form201.mat.six' 中“six”的大小写，将其改为“Six”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#three" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="three" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="three" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'Form201.mat.three' 中“three”的大小写，将其改为“Three”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#two" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="two" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="two" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'Form201.mat.two' 中“two”的大小写，将其改为“Two”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#zero" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="zero" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="zero" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'Form201.mat.zero' 中“zero”的大小写，将其改为“Zero”。</Issue>
             </Message>
            </Messages>
@@ -569,38 +569,38 @@
         </Type>
         <Type Name="Form201+met" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="met" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+          <Message Id="met" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="85" Level="Error">更正类型名称 'Form201.met' 中“met”的大小写，将其改为“Met”。</Issue>
           </Message>
-          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
            <Issue Certainty="90" Level="Error">不要嵌套类型 'Form201.met'。或者，更改其可访问性，使它在外部不可见。</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#add" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="add" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="add" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'Form201.met.add' 中“add”的大小写，将其改为“Add”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#divide" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="divide" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="divide" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'Form201.met.divide' 中“divide”的大小写，将其改为“Divide”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#mutiply" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="mutiply" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="mutiply" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'Form201.met.mutiply' 中“mutiply”的大小写，将其改为“Mutiply”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#subtract" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="subtract" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message Id="subtract" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'Form201.met.subtract' 中“subtract”的大小写，将其改为“Subtract”。</Issue>
             </Message>
            </Messages>
@@ -611,7 +611,7 @@
          <Members>
           <Member Name="#Button1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form202.vb" Line="30">方法 'Form202.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: ","。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form202.vb" Line="36">方法 'Form202.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: ","。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form202.vb" Line="44">方法 'Form202.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: ","。</Issue>
@@ -620,15 +620,15 @@
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form202.Designer.vb" Line="123">方法 'Form202.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "清除"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form202.Designer.vb" Line="132">方法 'Form202.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "计算"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form202.Designer.vb" Line="114">方法 'Form202.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "返回"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form202.Designer.vb" Line="190">方法 'Form202.InitializeComponent()' 将一个文本字符串作为对 'Form.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "求公因数及最大"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form202.Designer.vb" Line="106">方法 'Form202.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "公因数有："。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form202.Designer.vb" Line="151">方法 'Form202.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "数1"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form202.Designer.vb" Line="142">方法 'Form202.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "数2"。</Issue>
@@ -644,7 +644,7 @@
          <Members>
           <Member Name="#Button1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form203.vb" Line="22">方法 'Form203.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: ","。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form203.vb" Line="27">方法 'Form203.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: ",, " &amp; ChrW(13) &amp; ",, ..."。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form203.vb" Line="28">方法 'Form203.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: ",, " &amp; ChrW(13) &amp; ",, ..."。</Issue>
@@ -653,22 +653,22 @@
           </Member>
           <Member Name="#Form4_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form203.vb" Line="8">方法 'Form203.Form4_Load(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "请输入！"。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form203.Designer.vb" Line="123">方法 'Form203.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "清除"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form203.Designer.vb" Line="132">方法 'Form203.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "计算"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form203.Designer.vb" Line="114">方法 'Form203.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "返回"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form203.Designer.vb" Line="190">方法 'Form203.InitializeComponent()' 将一个文本字符串作为对 'Form.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "求公倍数及最小"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form203.Designer.vb" Line="55">方法 'Form203.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "公倍数："。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form203.Designer.vb" Line="106">方法 'Form203.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "数1倍数："。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form203.Designer.vb" Line="97">方法 'Form203.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "数2倍数："。</Issue>
@@ -684,7 +684,7 @@
          <Members>
           <Member Name="#Button1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.vb" Line="82">方法 'Form204.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "输入错误！"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.vb" Line="87">方法 'Form204.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "输入错误！"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.vb" Line="92">方法 'Form204.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "输入错误！"。</Issue>
@@ -693,7 +693,7 @@
           </Member>
           <Member Name="#Form6_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.vb" Line="10">方法 'Form204.Form6_Load(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "上底"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.vb" Line="11">方法 'Form204.Form6_Load(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "下底"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.vb" Line="5">方法 'Form204.Form6_Load(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "请选择要计算的图形类型，并输入"。</Issue>
@@ -703,7 +703,7 @@
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.Designer.vb" Line="79">方法 'Form204.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "三角形面积"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.Designer.vb" Line="49">方法 'Form204.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "圆形面积"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.Designer.vb" Line="161">方法 'Form204.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "平行四边形面积"。</Issue>
@@ -714,14 +714,14 @@
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.Designer.vb" Line="133">方法 'Form204.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "退出"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.Designer.vb" Line="181">方法 'Form204.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "长方形面积"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.Designer.vb" Line="208">方法 'Form204.InitializeComponent()' 将一个文本字符串作为对 'Form.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "面积计算器"。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#RadioButton1_CheckedChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.vb" Line="32">方法 'Form204.RadioButton1_CheckedChanged(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "宽"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.vb" Line="31">方法 'Form204.RadioButton1_CheckedChanged(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "长"。</Issue>
             </Message>
@@ -729,14 +729,14 @@
           </Member>
           <Member Name="#RadioButton2_CheckedChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.vb" Line="43">方法 'Form204.RadioButton2_CheckedChanged(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "边长"。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#RadioButton3_CheckedChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.vb" Line="68">方法 'Form204.RadioButton3_CheckedChanged(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "底"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.vb" Line="69">方法 'Form204.RadioButton3_CheckedChanged(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "高"。</Issue>
             </Message>
@@ -744,7 +744,7 @@
           </Member>
           <Member Name="#RadioButton4_CheckedChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.vb" Line="56">方法 'Form204.RadioButton4_CheckedChanged(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "底"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.vb" Line="57">方法 'Form204.RadioButton4_CheckedChanged(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "高"。</Issue>
             </Message>
@@ -752,14 +752,14 @@
           </Member>
           <Member Name="#RadioButton5_CheckedChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.vb" Line="125">方法 'Form204.RadioButton5_CheckedChanged(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "半径"。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#RadioButton6_CheckedChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.vb" Line="20">方法 'Form204.RadioButton6_CheckedChanged(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "上底"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.vb" Line="21">方法 'Form204.RadioButton6_CheckedChanged(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "下底"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form204.vb" Line="22">方法 'Form204.RadioButton6_CheckedChanged(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "高"。</Issue>
@@ -772,7 +772,7 @@
          <Members>
           <Member Name="#Form205_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.TextBox.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.TextBox.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form205.vb" Line="9">方法 'Form205.Form205_Load(Object, EventArgs)' 将一个文本字符串作为对 'TextBox.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "2"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form205.vb" Line="10">方法 'Form205.Form205_Load(Object, EventArgs)' 将一个文本字符串作为对 'TextBox.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "4"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form205.vb" Line="8">方法 'Form205.Form205_Load(Object, EventArgs)' 将一个文本字符串作为对 'TextBox.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "兔"。</Issue>
@@ -782,15 +782,15 @@
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form205.Designer.vb" Line="55">方法 'Form205.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "清除"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form205.Designer.vb" Line="64">方法 'Form205.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "计算"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form205.Designer.vb" Line="46">方法 'Form205.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "返回"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form205.Designer.vb" Line="186">方法 'Form205.InitializeComponent()' 将一个文本字符串作为对 'Form.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "鸡兔同笼计算"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form205.Designer.vb" Line="133">方法 'Form205.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "A物""腿""数"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form205.Designer.vb" Line="124">方法 'Form205.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "A物名"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form205.Designer.vb" Line="115">方法 'Form205.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "B物""腿""数"。</Issue>
@@ -806,7 +806,7 @@
          <Members>
           <Member Name="#Button1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form301.vb" Line="14">方法 'Form301.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "不是整数！"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form301.vb" Line="12">方法 'Form301.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "已开始计时！"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form301.vb" Line="19">方法 'Form301.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "已开始！"。</Issue>
@@ -815,7 +815,7 @@
           </Member>
           <Member Name="#Button2_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form301.vb" Line="38">方法 'Form301.Button2_Click(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "总共, 秒"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form301.vb" Line="29">方法 'Form301.Button2_Click(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "设置时间(秒)"。</Issue>
             </Message>
@@ -823,31 +823,31 @@
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form301.Designer.vb" Line="81">方法 'Form301.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "倒计时模式"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form301.Designer.vb" Line="59">方法 'Form301.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "停止"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form301.Designer.vb" Line="90">方法 'Form301.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "开始"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form301.Designer.vb" Line="69">方法 'Form301.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "计时模式"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form301.Designer.vb" Line="50">方法 'Form301.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "退出"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form301.Designer.vb" Line="123">方法 'Form301.InitializeComponent()' 将一个文本字符串作为对 'Form.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "计时器"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form301.Designer.vb" Line="42">方法 'Form301.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "设置时间（秒）"。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#RadioButton1_CheckedChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form301.vb" Line="71">方法 'Form301.RadioButton1_CheckedChanged(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "设置时间(秒)"。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#RadioButton2_CheckedChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form301.vb" Line="65">方法 'Form301.RadioButton2_CheckedChanged(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "请按开始键开始！"。</Issue>
             </Message>
            </Messages>
@@ -858,31 +858,31 @@
          <Members>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form302.Designer.vb" Line="110">方法 'Form302.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "开始"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form302.Designer.vb" Line="79">方法 'Form302.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "提前停止"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form302.Designer.vb" Line="42">方法 'Form302.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "清除记录"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form302.Designer.vb" Line="119">方法 'Form302.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "设置内容"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form302.Designer.vb" Line="52">方法 'Form302.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "退出"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form302.Designer.vb" Line="143">方法 'Form302.InitializeComponent()' 将一个文本字符串作为对 'Form.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "打字测试"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form302.Designer.vb" Line="62">方法 'Form302.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "时间(秒)："。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#ok1" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">由于字段 'Form302.ok1' 在其声明类型的外部可见，因此，请将它的可访问性改为私有，并添加一个与该字段当前的可访问性相同的属性以提供对该属性的访问。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#ywnr" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">由于字段 'Form302.ywnr' 在其声明类型的外部可见，因此，请将它的可访问性改为私有，并添加一个与该字段当前的可访问性相同的属性以提供对该属性的访问。</Issue>
             </Message>
            </Messages>
@@ -891,20 +891,20 @@
         </Type>
         <Type Name="Form302_1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+          <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="95" Level="Error">从类型名称 'Form302_1' 中移除下划线。</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form302_1.Designer.vb" Line="34">方法 'Form302_1.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "保存并返回"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form302_1.Designer.vb" Line="68">方法 'Form302_1.InitializeComponent()' 将一个文本字符串作为对 'Form.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "输入文本"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form302_1.Designer.vb" Line="44">方法 'Form302_1.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "请输入要用于测试的文本（最多310字符）"。</Issue>
             </Message>
            </Messages>
@@ -915,7 +915,7 @@
          <Members>
           <Member Name="#Button1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form401.vb" Line="41">方法 'Form401.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "剩余, 局！"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form401.vb" Line="40">方法 'Form401.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "开始了！"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form401.vb" Line="43">方法 'Form401.Button1_Click(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "玩家胜, 局"。</Issue>
@@ -926,7 +926,7 @@
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form401.Designer.vb" Line="156">方法 'Form401.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "出剪刀"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form401.Designer.vb" Line="147">方法 'Form401.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "出布"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form401.Designer.vb" Line="165">方法 'Form401.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "出石头"。</Issue>
@@ -934,10 +934,10 @@
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form401.Designer.vb" Line="183">方法 'Form401.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "结束"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form401.Designer.vb" Line="174">方法 'Form401.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "退出"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form401.Designer.vb" Line="220">方法 'Form401.InitializeComponent()' 将一个文本字符串作为对 'Form.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "猜拳游戏"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.GroupBox.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.GroupBox.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form401.Designer.vb" Line="139">方法 'Form401.InitializeComponent()' 将一个文本字符串作为对 'GroupBox.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "玩家"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form401.Designer.vb" Line="119">方法 'Form401.InitializeComponent()' 将一个文本字符串作为对 'GroupBox.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "电脑"。</Issue>
             </Message>
@@ -945,7 +945,7 @@
           </Member>
           <Member Name="#panduan()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form401.vb" Line="156">方法 'Form401.panduan()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "剩余, 局！"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form401.vb" Line="110">方法 'Form401.panduan()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "剪刀"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form401.vb" Line="130">方法 'Form401.panduan()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "剪刀"。</Issue>
@@ -972,7 +972,7 @@
           </Member>
           <Member Name="#ti1_Tick(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form401.vb" Line="56">方法 'Form401.ti1_Tick(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "剩余, 秒!"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form401.vb" Line="50">方法 'Form401.ti1_Tick(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "超时了，这局电脑获胜！"。</Issue>
             </Message>
@@ -984,7 +984,7 @@
          <Members>
           <Member Name="#Button7_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form402.vb" Line="120">方法 'Form402.Button7_Click(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "玩家赢了, 局"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form402.vb" Line="121">方法 'Form402.Button7_Click(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "电脑赢了, 局"。</Issue>
             </Message>
@@ -992,7 +992,7 @@
           </Member>
           <Member Name="#Form802_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form402.vb" Line="5">方法 'Form402.Form802_Load(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "玩家赢了, 局"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form402.vb" Line="6">方法 'Form402.Form802_Load(Object, EventArgs)' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "电脑赢了, 局"。</Issue>
             </Message>
@@ -1000,7 +1000,7 @@
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form402.Designer.vb" Line="189">方法 'Form402.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "0"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form402.Designer.vb" Line="355">方法 'Form402.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "0"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form402.Designer.vb" Line="234">方法 'Form402.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "1"。</Issue>
@@ -1021,14 +1021,14 @@
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form402.Designer.vb" Line="62">方法 'Form402.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "退出"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form402.Designer.vb" Line="71">方法 'Form402.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "重置局数"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form402.Designer.vb" Line="372">方法 'Form402.InitializeComponent()' 将一个文本字符串作为对 'Form.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "兄弟哥俩好"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.GroupBox.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.GroupBox.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form402.Designer.vb" Line="163">方法 'Form402.InitializeComponent()' 将一个文本字符串作为对 'GroupBox.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "玩家"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form402.Designer.vb" Line="101">方法 'Form402.InitializeComponent()' 将一个文本字符串作为对 'GroupBox.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "电脑"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form402.Designer.vb" Line="126">方法 'Form402.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "出数"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form402.Designer.vb" Line="172">方法 'Form402.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "出数"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form402.Designer.vb" Line="135">方法 'Form402.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "猜数"。</Issue>
@@ -1038,7 +1038,7 @@
           </Member>
           <Member Name="#panduan()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form402.vb" Line="29">方法 'Form402.panduan()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "玩家赢了, 局"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form402.vb" Line="30">方法 'Form402.panduan()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "电脑赢了, 局"。</Issue>
             </Message>
@@ -1050,23 +1050,23 @@
          <Members>
           <Member Name="#Form806_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="ci" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="NonBreaking">
+            <Message Id="ci" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form406.vb" Line="7">'Form406.Form806_Load(Object, EventArgs)' 声明类型为 'Object' 的变量 'ci'，但从未使用过该变量或只对它进行过赋值。请使用此变量或将它移除。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form406.Designer.vb" Line="62">方法 'Form406.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "不是"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form406.Designer.vb" Line="73">方法 'Form406.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "是"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form406.Designer.vb" Line="100">方法 'Form406.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "登录"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form406.Designer.vb" Line="91">方法 'Form406.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "退出"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form406.Designer.vb" Line="145">方法 'Form406.InitializeComponent()' 将一个文本字符串作为对 'Form.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "登录到多功能程序"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form406.Designer.vb" Line="110">方法 'Form406.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "密码"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form406.Designer.vb" Line="119">方法 'Form406.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "用户名"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Form406.Designer.vb" Line="83">方法 'Form406.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "验证问题：  你是帅哥吗？"。</Issue>
@@ -1079,25 +1079,25 @@
          <Members>
           <Member Name="#butt(System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="butt" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.vb" Line="52">更正成员名称 'Formopen.butt(Boolean)' 中“butt”的大小写，将其改为“Butt”。</Issue>
+            <Message Id="butt" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.vb" Line="48">更正成员名称 'Formopen.butt(Boolean)' 中“butt”的大小写，将其改为“Butt”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#closs()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="closs" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.vb" Line="136">更正成员名称 'Formopen.closs()' 中“closs”的大小写，将其改为“Closs”。</Issue>
+            <Message Id="closs" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.vb" Line="132">更正成员名称 'Formopen.closs()' 中“closs”的大小写，将其改为“Closs”。</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="DoNotUseTimersThatPreventPowerStateChanges" Category="Microsoft.Mobility" CheckId="CA1601" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
+            <Message TypeName="DoNotUseTimersThatPreventPowerStateChanges" Category="Microsoft.Mobility" CheckId="CA1601" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.Designer.vb" Line="166">修改方法 'Formopen.InitializeComponent()' 中对 'Timer.Interval.Set(Integer)' 的调用以将计时器间隔设置为大于或等于 1 秒的值。</Issue>
              <Issue Certainty="90" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.Designer.vb" Line="170">修改方法 'Formopen.InitializeComponent()' 中对 'Timer.Interval.Set(Integer)' 的调用以将计时器间隔设置为大于或等于 1 秒的值。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.ButtonBase.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.Designer.vb" Line="77">方法 'Formopen.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "关于"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.Designer.vb" Line="105">方法 'Formopen.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "关机"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.Designer.vb" Line="68">方法 'Formopen.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "娱乐程序"。</Issue>
@@ -1106,16 +1106,16 @@
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.Designer.vb" Line="86">方法 'Formopen.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "退出"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.Designer.vb" Line="95">方法 'Formopen.InitializeComponent()' 将一个文本字符串作为对 'ButtonBase.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "锁屏"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Form.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.Designer.vb" Line="190">方法 'Formopen.InitializeComponent()' 将一个文本字符串作为对 'Form.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "多功能程序"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.LinkLabel.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.LinkLabel.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.Designer.vb" Line="162">方法 'Formopen.InitializeComponent()' 将一个文本字符串作为对 'LinkLabel.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "BY FMQ03"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.NotifyIcon.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.NotifyIcon.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.Designer.vb" Line="112">方法 'Formopen.InitializeComponent()' 将一个文本字符串作为对 'NotifyIcon.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "多功能程序2.0(测试版)" &amp; ChrW(13) &amp; ChrW(10) &amp; "欢迎使用~"。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.ToolStripItem.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.ToolStripItem.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.Designer.vb" Line="146">方法 'Formopen.InitializeComponent()' 将一个文本字符串作为对 'ToolStripItem.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "关于"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.Designer.vb" Line="133">方法 'Formopen.InitializeComponent()' 将一个文本字符串作为对 'ToolStripItem.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "显示程序"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.Designer.vb" Line="152">方法 'Formopen.InitializeComponent()' 将一个文本字符串作为对 'ToolStripItem.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "退出程序"。</Issue>
@@ -1126,18 +1126,18 @@
           </Member>
           <Member Name="#noti(System.Int32,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
-             <Issue Certainty="75" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.vb" Line="176">用提供所有默认形参的重载来替换方法 'Formopen.noti(Integer, String)'。</Issue>
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.vb" Line="172">用提供所有默认形参的重载来替换方法 'Formopen.noti(Integer, String)'。</Issue>
             </Message>
-            <Message Id="noti" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.vb" Line="176">更正成员名称 'Formopen.noti(Integer, String)' 中“noti”的大小写，将其改为“Noti”。</Issue>
+            <Message Id="noti" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.vb" Line="172">更正成员名称 'Formopen.noti(Integer, String)' 中“noti”的大小写，将其改为“Noti”。</Issue>
             </Message>
-            <Message Id="mode-1" TypeName="OperationsShouldNotOverflow" Category="Microsoft.Usage" CheckId="CA2233" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="NonBreaking">
-             <Issue Certainty="75" Level="CriticalWarning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.vb" Line="176">更正 'Formopen.noti(Integer, String)' 中运算“mode-1”的潜在溢出。</Issue>
+            <Message Id="mode-1" TypeName="OperationsShouldNotOverflow" Category="Microsoft.Usage" CheckId="CA2233" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="CriticalWarning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.vb" Line="172">更正 'Formopen.noti(Integer, String)' 中运算“mode-1”的潜在溢出。</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.NotifyIcon.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.vb" Line="180">方法 'Formopen.noti(Integer, String)' 将一个文本字符串作为对 'NotifyIcon.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "多功能程序2.0(测试版)" &amp; ChrW(13) &amp; "欢迎使用~"。</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.vb" Line="178">方法 'Formopen.noti(Integer, String)' 将一个文本字符串作为对 'NotifyIcon.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "多功能程序2.0(测试版)" &amp; ChrW(13) &amp; "欢迎使用~" &amp; ChrW(13)。</Issue>
+            <Message Id="System.Windows.Forms.NotifyIcon.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.vb" Line="176">方法 'Formopen.noti(Integer, String)' 将一个文本字符串作为对 'NotifyIcon.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "多功能程序2.0(测试版)" &amp; ChrW(13) &amp; "欢迎使用~"。</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="Formopen.vb" Line="174">方法 'Formopen.noti(Integer, String)' 将一个文本字符串作为对 'NotifyIcon.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "多功能程序2.0(测试版)" &amp; ChrW(13) &amp; "欢迎使用~" &amp; ChrW(13)。</Issue>
             </Message>
            </Messages>
           </Member>
@@ -1147,7 +1147,7 @@
          <Members>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="DependsOnFix">
+            <Message Id="System.Windows.Forms.Label.set_Text(System.String)" TypeName="请不要将文本作为本地化参数传递" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="SplashScreen1.Designer.vb" Line="106">方法 'SplashScreen1.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "应用程序标题"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="SplashScreen1.Designer.vb" Line="84">方法 'SplashScreen1.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "版本 {0}.{1:00}"。</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="SplashScreen1.Designer.vb" Line="95">方法 'SplashScreen1.InitializeComponent()' 将一个文本字符串作为对 'Label.Text.Set(String)' 的调用的参数“value”传递。改为从资源表检索以下字符串: "版权"。</Issue>
@@ -1156,7 +1156,7 @@
           </Member>
           <Member Name="#SplashScreen1_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2016-12-16 10:39:15Z" FixCategory="NonBreaking">
+            <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-02-03 06:20:26Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="G:\冯梦奇的业余\Duogongneng\Duogongneng\duogongneng" File="SplashScreen1.vb" Line="29">由于 'String.Format(String, Object, Object)' 的行为可能会因当前用户的区域设置不同而不同，请将 'SplashScreen1.SplashScreen1_Load(Object, EventArgs)' 中的此调用替换为对 'String.Format(IFormatProvider, String, ParamArray Object())' 的调用。如果要向用户显示 'String.Format(IFormatProvider, String, ParamArray Object())' 的结果，请指定 'CultureInfo.CurrentCulture()' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture()'。</Issue>
             </Message>
            </Messages>

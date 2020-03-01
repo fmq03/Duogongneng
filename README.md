@@ -8,4 +8,4 @@ It symbol the way when I begin to code until now(Error = =)
 
 This program may be the first program I have developed.Useless,simple,just for fun:)
 
-Every great dream has a tiny pace.
+Every great dream has a tiny beginning.
